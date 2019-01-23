@@ -3,6 +3,15 @@ module.exports = [
     date: "January 2019",
     banners: [
       {
+        name: "Hostile Springs",
+        startDate: "Jan 23, 2019",
+        focusHeroes: ["Hinoka (Hostile Springs)", "Elise (Hostile Springs)", "Ryoma (Hostile Springs)", "Sakura (Hostile Springs)"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV2",
+        pool: "pool2"
+      },
+      {
         name: "Rulers of the Laguz",
         startDate: "Jan 11, 2019",
         focusHeroes: ["Nailah", "Tibarn", "Reyson", "Leanne"],
