@@ -1105,6 +1105,41 @@ module.exports = [
     }
   },
   {
+    name: "Camilla (Hostile Springs)",
+    shortName: "Camilla",
+    title: "Steamy Secrets",
+    artist: "lack",
+    voice: "Misty Lee",
+    releaseDate: "Jan 26, 2019",
+    colorType: "Neutral",
+    weaponType: "Dagger",
+    moveType: "Flying",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Camilla (Hostile Springs).png",
+      main: "img/heroes-main/Camilla (Hostile Springs).png"
+    },
+    skills: [
+      { name: "Iron Dagger", rarity: 1 },
+      { name: "Steel Dagger", rarity: 3 },
+      { name: "Ouch Pouch", rarity: 4 },
+      { name: "Ouch Pouch+", rarity: 5 },
+      { name: "Night Sky", rarity: 4 },
+      { name: "Glimmer", rarity: 4 },
+      { name: "Attack +1", rarity: 3 },
+      { name: "Atk/Spd 1", rarity: 4 },
+      { name: "Atk/Spd 2", rarity: 5 },
+      { name: "Hone Atk 1", rarity: 3 },
+      { name: "Hone Atk 2", rarity: 4 },
+      { name: "Hone Fliers", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 16, atk: 9, spd: 9, def: 4, res: 6 },
+      level40: { hp: [ 35, 38, 41 ], atk: [ 30, 33, 36 ], spd: [ 32, 35, 38 ], def: [ 14, 17, 20 ], res: [ 25, 28, 31 ] },
+    }38	33	35	17	28
+  },
+  {
     name: "Camilla (Spring Festival)",
     shortName: "Camilla",
     artist: "Maeshima Shigeki (前嶋重機)",
@@ -2723,6 +2758,45 @@ module.exports = [
     }
   },
   {
+    name: "Elise (Hostile Springs)",
+    shortName: "Elise",
+    title: "Bubbling Flower",
+    artist: "Mikuro (みく郎)",
+    voice: "Liv Strander",
+    releaseDate: "Jan 23, 2019",
+    colorType: "Red",
+    weaponType: "Dagger",
+    moveType: "Cavalry",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Elise (Hostile Springs).png",
+      main: "img/heroes-main/Elise (Hostile Springs).png"
+    },
+    skills: [
+      { name: "Iron Dagger", rarity: 1 },
+      { name: "Steel Dagger", rarity: 3 },
+      { name: "Red-Hot Ducks", rarity: 4 },
+      { name: "Red-Hot Ducks+", rarity: 5 },
+      { name: "Rally Attack", rarity: 4 },
+      { name: "Rally Up Atk", rarity: 4 },
+      { name: "Rally Up Atk+", rarity: 4 },
+      { name: "Darting Blow 1", rarity: 3 },
+      { name: "Swift Sparrow 1", rarity: 4 },
+      { name: "Swift Sparrow 2", rarity: 5 },
+      { name: "Atk Feint 1", rarity: 3 },
+      { name: "Atk Feint 2", rarity: 4 },
+      { name: "Atk Feint 3", rarity: 5 },
+      { name: "Dagger Valor 1", rarity: 1 },
+      { name: "Dagger Valor 2", rarity: 2 },
+      { name: "Dagger Valor 3", rarity: 4 }
+    ],
+    stats: {
+      level1: { hp: 15, atk: 7, spd: 11, def: 3, res: 7 },
+      level40: { hp: [ 31, 34, 38 ], atk: [ 30, 33, 36 ], spd: [ 34, 37, 40 ], def: [ 15, 18, 21 ], res: [ 19, 22, 25 ] },
+    }
+  },
+  {
     name: "Elise (Nohrian Summer)",
     shortName: "Elise",
     title: "Tropical Flower",
@@ -3022,6 +3096,7 @@ module.exports = [
     moveType: "Cavalry",
     rarity3: ["pool2"],
     rarity4: ["pool2"],
+    ttReward: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Ethlyn.png",
       main: "img/heroes-main/Ethlyn.png"
@@ -3048,42 +3123,6 @@ module.exports = [
       level40: { hp: [ 35, 38, 41 ], atk: [ 25, 28, 31 ], spd: [ 31, 34, 37 ], def: [ 23, 26, 29 ], res: [ 17, 20, 23 ] },
       level1_4: { hp: 15, atk: 5, spd: 10, def: 3, res: 7 },
       level40_4: { hp: [ 32, 35, 38 ], atk: [ 22, 25, 28 ], spd: [ 29, 32, 35 ], def: [ 20, 23, 26 ], res: [ 16, 19, 22 ] }
-    }
-  },
-    {
-    name: "Tobin",
-    title: "The Clueless One",
-    artist: "kaya8",
-    voice: "Robbie Daymond",
-    releaseDate: "Jul 07, 2017",
-    colorType: "Red",
-    weaponType: "Sword",
-    moveType: "Infantry",
-    rarity4: ["pool1", "pool2"],
-    rarity5: ["pool1", "pool2"],
-    ttReward: true,
-    assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Tobin.png",
-      main: "img/heroes-main/Tobin.png"
-    },
-    skills: [
-      { name: "Iron Sword", rarity: 4 },
-      { name: "Steel Sword", rarity: 4 },
-      { name: "Armorslayer", rarity: 4 },
-      { name: "Armorslayer+", rarity: 5 },
-      { name: "Pivot", rarity: 4 },
-      { name: "Attack +1", rarity: 4 },
-      { name: "Attack +2", rarity: 4 },
-      { name: "Attack +3", rarity: 4 },
-      { name: "Seal Spd 1", rarity: 4 },
-      { name: "Seal Spd 2", rarity: 4 },
-      { name: "Seal Spd 3", rarity: 5 }
-    ],
-    stats: {
-      level1: { hp: 18, atk: 7, spd: 5, def: 5, res: 4 },
-      level40: { hp: [ 43, 46, 49 ], atk: [ 28, 31, 34 ], spd: [ 23, 27, 30 ], def: [ 30, 33, 36 ], res: [ 22, 26, 29 ] },
-      level1_4: { hp: 17, atk: 7, spd: 5, def: 4, res: 3 },
-      level40_4: { hp: [ 40, 43, 46 ], atk: [ 26, 29, 32 ], spd: [ 22, 25, 28 ], def: [ 27, 30, 33 ], res: [ 20, 23, 26 ] }
     }
   },
   {
@@ -4352,6 +4391,43 @@ module.exports = [
     }
   },
   {
+    name: "Hinoka (Hostile Springs)",
+    shortName: "Hinoka",
+    title: "Relaxed Warrior",
+    artist: "Foo Midori (碧風羽)",
+    voice: "Cindy Robinson",
+    releaseDate: "Jan 23, 2019",
+    colorType: "Green",
+    weaponType: "Dagger",
+    moveType: "Flying",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Hinoka (Hostile Springs).png",
+      main: "img/heroes-main/Hinoka (Hostile Springs).png"
+    },
+    skills: [
+      { name: "Iron Dagger", rarity: 1 },
+      { name: "Steel Dagger", rarity: 3 },
+      { name: "Splashy Bucket", rarity: 4 },
+      { name: "Splashy Bucket+", rarity: 5 },
+      { name: "Draw Back", rarity: 4 },
+      { name: "Atk/Spd Bond 1", rarity: 3 },
+      { name: "Atk/Spd Bond 2", rarity: 4 },
+      { name: "Atk/Spd Bond 3", rarity: 5 },
+      { name: "Atk/Spd Link 1", rarity: 3 },
+      { name: "Atk/Spd Link 2", rarity: 4 },
+      { name: "Atk/Spd Link 3", rarity: 5 },
+      { name: "Air Orders 1", rarity: 1 },
+      { name: "Air Orders 2", rarity: 2 },
+      { name: "Air Orders 3", rarity: 4 }
+    ],
+    stats: {
+      level1: { hp: 16, atk: 9, spd: 9, def: 3, res: 7 },
+      level40: { hp: [ 34, 38, 41 ], atk: [ 32, 35, 38 ], spd: [ 32, 35, 38 ], def: [ 12, 16, 19 ], res: [ 23, 26, 30 ] },
+    }
+  },
+  {
     name: "Hinoka (Wings of Fate)",
     shortName: "Hinoka",
     title: "Blue Sky Warrior",
@@ -5319,8 +5395,8 @@ module.exports = [
     colorType: "Neutral",
     weaponType: "Dagger",
     moveType: "Infantry",
-    rarity5: ["pool2"],
-    limited: true,
+    rarity3: ["pool2"],
+    rarity4: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Kaze.png",
       main: "img/heroes-main/Kaze.png"
@@ -5678,10 +5754,10 @@ module.exports = [
     artist: "Yura (由良)",
     voice: "Rachelle Heger",
     releaseDate: "Jan 11, 2019",
-    colorType: "Colorless",
+    colorType: "Neutral",
     weaponType: "Beast",
     moveType: "Flying",
-    pool: ["pool2"],
+    rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Leanne.png",
       main: "img/heroes-main/Leanne.png"
@@ -5994,6 +6070,7 @@ module.exports = [
     colorType: "Green",
     weaponType: "Axe",
     moveType: "Infantry",
+    rarity4: ["pool2"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Libra.png",
@@ -7448,7 +7525,7 @@ module.exports = [
     title: "Caring Mother",
     artist: "Ito Misei (伊藤未生)",
     voice: "Marisha Ray",
-    releaseDate: "Nov 9, 2019",
+    releaseDate: "Nov 9, 2018",
     colorType: "Neutral",
     weaponType: "Staff",
     moveType: "Infantry",
@@ -7699,6 +7776,7 @@ module.exports = [
     weaponType: "Beast",
     moveType: "Flying",
     pool: ["pool2"],
+    ghb: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Naesala.png",
       main: "img/heroes-main/Naesala.png"
@@ -7734,7 +7812,7 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Beast",
     moveType: "Infantry",
-    pool: ["pool2"],
+    rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Nailah.png",
       main: "img/heroes-main/Nailah.png"
@@ -9015,7 +9093,8 @@ module.exports = [
     colorType: "Green",
     weaponType: "Beast",
     moveType: "Flying",
-    pool: ["pool2"],
+    rarity4: ["pool2"],
+    rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Reyson.png",
       main: "img/heroes-main/Reyson.png"
@@ -9499,6 +9578,44 @@ module.exports = [
     }
   },
   {
+    name: "Ryoma (Hostile Springs)",
+    shortName: "Ryoma",
+    title: "Samurai at Ease",
+    artist: "PenekoR (п猫Ｒ)",
+    voice: "Matt Mercer",
+    releaseDate: "Jan 23, 2019",
+    colorType: "Blue",
+    weaponType: "Lance",
+    moveType: "Flying",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Ryoma (Hostile Springs).png",
+      main: "img/heroes-main/Ryoma (Hostile Springs).png"
+    },
+    skills: [
+      { name: "Iron Lance", rarity: 3 },
+      { name: "Steel Lance", rarity: 3 },
+      { name: "It's Curtains...", rarity: 4 },
+      { name: "It's Curtains...+", rarity: 5 },
+      { name: "New Moon", rarity: 4 },
+      { name: "Luna", rarity: 4 },
+      { name: "Atk/Def Solo 1", rarity: 3 },
+      { name: "Atk/Def Solo 2", rarity: 3 },
+      { name: "Atk/Def Solo 3", rarity: 4 },
+      { name: "Chill Spd 1", rarity: 3 },
+      { name: "Chill Spd 2", rarity: 3 },
+      { name: "Chill Spd 3", rarity: 4 },
+      { name: "Odd Def Wave 1", rarity: 3 },
+      { name: "Odd Def Wave 2", rarity: 4 },
+      { name: "Odd Def Wave 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 18, atk: 11, spd: 10, def: 4, res: 4 },
+      level40: { hp: [ 36, 40, 43 ], atk: [ 32, 35, 38 ], spd: [ 33, 36, 39 ], def: [ 25, 28, 31 ], res: [ 20, 23, 27 ] },
+    }
+  },
+  {
     name: "Ryoma (Legendary Heroes)",
     shortName: "Ryoma",
     title: "Supreme Samurai",
@@ -9671,6 +9788,45 @@ module.exports = [
       level40: { hp: [ 33, 36, 40 ], atk: [ 24, 28, 31 ], spd: [ 26, 30, 33 ], def: [ 21, 24, 28 ], res: [ 26, 30, 33 ] },
       level1_4: { hp: 16, atk: 5, spd: 8, def: 4, res: 8 },
       level40_4: { hp: [ 31, 34, 37 ], atk: [ 22, 25, 28 ], spd: [ 25, 28, 31 ], def: [ 19, 22, 25 ], res: [ 25, 28, 31 ] }
+    }
+  },
+  {
+    name: "Sakura (Hostile Springs)",
+    shortName: "Sakura",
+    title: "Hot-Spring Healer",
+    artist: "Amagaitaro (アマガイタロー)",
+    voice: "Brianna Knickerbocker",
+    releaseDate: "Jan 23, 2019",
+    colorType: "Neutral",
+    weaponType: "Staff",
+    moveType: "Flying",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Sakura (Hostile Springs).png",
+      main: "img/heroes-main/Sakura (Hostile Springs).png"
+    },
+    skills: [
+      { name: "Assault", rarity: 4 },
+      { name: "Grandscratcher", rarity: 4 },
+      { name: "Grandscratcher+", rarity: 5 },
+      { name: "Heal", rarity: 4 },
+      { name: "Mend", rarity: 4 },
+      { name: "Physic", rarity: 5 },
+      { name: "Imbue", rarity: 4 },
+      { name: "Still-Water Balm", rarity: 5 },
+      { name: "Fireflood Balm", rarity: 5 },
+      { name: "Fireflood Balm+", rarity: 5 },
+      { name: "Wrathful Staff 1", rarity: 4 },
+      { name: "Wrathful Staff 2", rarity: 4 },
+      { name: "Wrathful Staff 3", rarity: 5 },
+      { name: "Spd Opening 1", rarity: 4 },
+      { name: "Spd Opening 2", rarity: 4 },
+      { name: "Spd Opening 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 17, atk: 9, spd: 8, def: 4, res: 6 },
+      level40: { hp: [ 33, 36, 40 ], atk: [ 32, 35, 38 ], spd: [ 29, 32, 35 ], def: [ 22, 26, 29 ], res: [ 18, 21, 24 ] },
     }
   },
   {
@@ -10277,6 +10433,7 @@ module.exports = [
     colorType: "Blue",
     weaponType: "Lance",
     moveType: "Cavalry",
+    rarity4: ["pool2"],
     rarity5: ["pool2"],
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Silas.png",
@@ -11048,7 +11205,7 @@ module.exports = [
     colorType:"Red",
     weaponType:"Beast",
     moveType:"Flying",
-    pool:["pool2"],
+    rarity5: ["pool2"],
     assets:{
       portrait:"img/heroes-portrait/75px-Icon_Portrait_Tibarn.png",
       main:"img/heroes-main/Tibarn.png"
