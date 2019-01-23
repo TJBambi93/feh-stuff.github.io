@@ -9308,7 +9308,6 @@ module.exports = [
     weaponType: "Breath",
     moveType: "Armored",
     rarity5: ["pool1", "pool2"],
-    limited: true,
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Robin (M) (Fallen Heroes).png",
       main: "img/heroes-main/Robin (M) (Fallen Heroes).png"
