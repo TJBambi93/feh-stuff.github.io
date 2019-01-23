@@ -16,5 +16,5 @@ module.exports = {
     {boon: '-', bane: '-'}
   ],
   POOL_COLOR_ORDER: ['Red', 'Blue', 'Green', 'Neutral'],
-  POOL_WEAPON_ORDER: ['Sword', 'Lance', 'Axe', 'Tome', 'Breath', 'Tome', 'Bow', 'Dagger', 'Staff']
+  POOL_WEAPON_ORDER: ['Sword', 'Lance', 'Axe', 'Tome', 'Beast', 'Breath', 'Tome', 'Bow', 'Dagger', 'Staff']
 };
