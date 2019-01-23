@@ -6,8 +6,8 @@ module.exports = [
         name: "Hostile Springs",
         startDate: "Jan 23, 2019",
         focusHeroes: ["Hinoka (Hostile Springs)", "Elise (Hostile Springs)", "Ryoma (Hostile Springs)", "Sakura (Hostile Springs)"],
-        excludeFromRarity4: [],
-        excludeFromRarity5: [],
+        excludeFromRarity4: ["Reyson"],
+        excludeFromRarity5: ["Nailah", "Tibarn", "Reyson", "Leanne"],
         rateType: "defaultV2",
         pool: "pool2"
       },
