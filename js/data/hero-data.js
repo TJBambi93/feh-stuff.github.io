@@ -1137,7 +1137,7 @@ module.exports = [
     stats: {
       level1: { hp: 16, atk: 9, spd: 9, def: 4, res: 6 },
       level40: { hp: [ 35, 38, 41 ], atk: [ 30, 33, 36 ], spd: [ 32, 35, 38 ], def: [ 14, 17, 20 ], res: [ 25, 28, 31 ] },
-    }38	33	35	17	28
+    }
   },
   {
     name: "Camilla (Spring Festival)",
