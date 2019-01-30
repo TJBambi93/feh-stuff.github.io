@@ -3,6 +3,15 @@ module.exports = [
     date: "January 2019",
     banners: [
       {
+        name: "Mythic Heroes: Duma, God of Strength",
+        startDate: "Jan 30, 2019",
+        focusHeroes: ["Ike (Legendary Heroes", "Eirika (Legendary Heroes)", "Laegjarn", "Tiki (Young) (Legendary Heroes)", "Ryoma (Festival in Hoshido)", "Kliff", "Lyn (Legendary Heroes)", "Elincia (Festival in Hoshido)", "Ephraim (Arrival of the Brave)", "Duma", "Loki", "Linde (A Sketchy Summer)"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "legendaryV1",
+        pool: "pool2"
+      },
+      {
         name: "Hostile Springs",
         startDate: "Jan 23, 2019",
         focusHeroes: ["Hinoka (Hostile Springs)", "Elise (Hostile Springs)", "Ryoma (Hostile Springs)", "Sakura (Hostile Springs)"],
