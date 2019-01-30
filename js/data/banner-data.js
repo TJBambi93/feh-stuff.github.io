@@ -5,7 +5,7 @@ module.exports = [
       {
         name: "Mythic Heroes: Duma, God of Strength",
         startDate: "Jan 30, 2019",
-        focusHeroes: ["Ike (Legendary Heroes", "Eirika (Legendary Heroes)", "Laegjarn", "Tiki (Young) (Legendary Heroes)", "Ryoma (Festival in Hoshido)", "Kliff", "Lyn (Legendary Heroes)", "Elincia (Festival in Hoshido)", "Ephraim (Arrival of the Brave)", "Duma", "Loki", "Linde (A Sketchy Summer)"],
+        focusHeroes: ["Ike (Legendary Heroes)", "Eirika (Legendary Heroes)", "Laegjarn", "Tiki (Young) (Legendary Heroes)", "Ryoma (Festival in Hoshido)", "Kliff", "Lyn (Legendary Heroes)", "Elincia (Festival in Hoshido)", "Ephraim (Arrival of the Brave)", "Duma", "Loki", "Linde (A Sketchy Summer)"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
         rateType: "legendaryV1",
