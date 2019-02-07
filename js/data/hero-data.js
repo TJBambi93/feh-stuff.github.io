@@ -3866,6 +3866,46 @@ module.exports = [
     }
   },
   {
+    name: "Greil (Greil's Devoted)",
+    shortName: "Greil",
+    title: "Heroic Exemplar",
+    artist: "Daisuke Izuka",
+    voice: "Frank Todaro",
+    releaseDate: "Feb 8, 2019",
+    colorType: "Green",
+    weaponType: "Axe",
+    moveType: "Armored",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Greil (Greil's Devoted).png",
+      main: "img/heroes-main/Greil (Greil's Devoted).png"
+    },
+    skills: [
+      {  name: "Iron Axe", rarity: 5 },
+      {  name: "Steel Axe", rarity: 5 },
+      {  name: "Faithful Axe", rarity: 5 },
+      {  name: "Faithful Axe+", rarity: 5 },
+      {  name: "Daylight", rarity: 5 },
+      {  name: "Sol", rarity: 5 },
+      {  name: "Aether", rarity: 5 },
+      {  name: "Fury 1", rarity: 5 },
+      {  name: "Fury 2", rarity: 5 },
+      {  name: "Fury 3", rarity: 5 },
+      {  name: "Fury 4", rarity: 5 },
+      {  name: "Wary Fighter 1", rarity: 5 },
+      {  name: "Wary Fighter 2", rarity: 5 },
+      {  name: "Wary Fighter 3", rarity: 5 },
+      {  name: "Armor March 1", rarity: 5 },
+      {  name: "Armor March 2", rarity: 5 },
+      {  name: "Armor March 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 23, atk: 11, spd: 5, def: 10, res: 6 },
+      level40: { hp: [ 44, 47, 50 ], atk: [ 38, 41, 45 ], spd: [ 14, 18, 21 ], def: [ 35, 38, 41 ], res: [ 27, 30, 33 ] }
+    }
+  },
+  {
     name: "Gunnthrá",
     title: "Voice of Dreams",
     artist: "Maeshima Shigeki (前嶋重機)",
@@ -4638,6 +4678,43 @@ module.exports = [
     stats: {
       level1: { hp: 17, atk: 10, spd: 6, def: 9, res: 5 },
       level40: { hp: [ 40, 43, 46 ], atk: [ 33, 36, 39 ], spd: [ 24, 28, 31 ], def: [ 32, 35, 38 ], res: [ 17, 20, 23 ] }
+    }
+  },
+  {
+    name: "Ike (Greil's Devoted)",
+    shortName: "Ike",
+    title: "Stalwart Heart",
+    artist: "Kita Senri (北千里)",
+    voice: "Greg Chun",
+    releaseDate: "Feb 8, 2019",
+    colorType: "Red",
+    weaponType: "Sword",
+    moveType: "Armored",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Ike (Greil's Devoted).png",
+      main: "img/heroes-main/Ike (Greil's Devoted).png"
+    },
+    skills: [
+      {  name: "Iron Sword", rarity: 5 },
+      {  name: "Steel Sword", rarity: 5 },
+      {  name: "Heart's Blade", rarity: 5 },
+      {  name: "Heart's Blade+", rarity: 5 },
+      {  name: "Daylight", rarity: 5 },
+      {  name: "Sol", rarity: 5 },
+      {  name: "Radiant Aether", rarity: 5 },
+      {  name: "Distant Counter", rarity: 5 },
+      {  name: "Special Fighter 1", rarity: 5 },
+      {  name: "Special Fighter 2", rarity: 5 },
+      {  name: "Special Fighter 3", rarity: 5 },
+      {  name: "Even Spd Wave 1", rarity: 5 },
+      {  name: "Even Spd Wave 2", rarity: 5 },
+      {  name: "Even Spd Wave 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 21, atk: 9, spd: 10, def: 9, res: 6 },
+      level40: { hp: [ 42, 45, 48 ], atk: [ 34, 37, 40 ], spd: [ 35, 38, 41 ], def: [ 32, 35, 38 ], res: [ 15, 19, 22 ] }
     }
   },
   {
@@ -7657,6 +7734,45 @@ module.exports = [
     }
   },
   {
+    name: "Mist (Greil's Devoted)",
+    shortName: "Mist",
+    title: "Purest Spirit",
+    artist: "Miwabe Sakura (みわべさくら)",
+    voice: "Sarah Williams",
+    releaseDate: "Feb 8, 2019",
+    colorType: "Green",
+    weaponType: "Tome",
+    moveType: "Cavalry",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Mist (Greil's Devoted).png",
+      main: "img/heroes-main/Mist (Greil's Devoted).png"
+    },
+    skills: [
+      {  name: "Wind", rarity: 5 },
+      {  name: "Elwind", rarity: 5 },
+      {  name: "Gronnblooms", rarity: 5 },
+      {  name: "Gronnblooms+", rarity: 5 },
+      {  name: "Rally Resistance", rarity: 5 },
+      {  name: "Rally Def/Res", rarity: 5 },
+      {  name: "Rally Def/Res+", rarity: 5 },
+      {  name: "Darting Blow 1", rarity: 5 },
+      {  name: "Swift Sparrow 1", rarity: 5 },
+      {  name: "Swift Sparrow 2", rarity: 5 },
+      {  name: "Res Feint 1", rarity: 5 },
+      {  name: "Res Feint 2", rarity: 5 },
+      {  name: "Res Feint 3", rarity: 5 },
+      {  name: "G Tome Valor 1", rarity: 5 },
+      {  name: "G Tome Valor 2", rarity: 5 },
+      {  name: "G Tome Valor 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 17, atk: 10, spd: 8, def: 4, res: 4 },
+      level40: { hp: [ 33, 36, 40 ], atk: [ 31, 34, 37 ], spd: [ 31, 34, 37 ], def: [ 14, 17, 20 ], res: [ 20, 23, 27 ] }
+    }
+  },
+  {
     name: "Morgan (F)",
     shortName: "Morgan",
     title: "Lass from Afar",
@@ -10668,6 +10784,45 @@ module.exports = [
     }
   },
   {
+    name: "Soren (Greil's Devoted)",
+    shortName: "Soren",
+    title: "Addled Strategist",
+    artist: "Miyajima Haru (ミヤジマハル)",
+    voice: "Kyle McCarley",
+    releaseDate: "Feb 8, 2019",
+    colorType: "Blue",
+    weaponType: "Tome",
+    moveType: "Cavalry",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Soren (Greil's Devoted).png",
+      main: "img/heroes-main/Soren (Greil's Devoted).png"
+    },
+    skills: [
+      {  name: "Thunder", rarity: 5 },
+      {  name: "Elthunder", rarity: 5 },
+      {  name: "Blarblooms", rarity: 5 },
+      {  name: "Blarblooms+", rarity: 5 },
+      {  name: "Rally Speed", rarity: 5 },
+      {  name: "Rally Atk/Spd", rarity: 5 },
+      {  name: "Rally Atk/Spd+", rarity: 5 },
+      {  name: "Atk/Res Bond 1", rarity: 5 },
+      {  name: "Atk/Res Bond 2", rarity: 5 },
+      {  name: "Atk/Res Bond 3", rarity: 5 },
+      {  name: "Spd Feint 1", rarity: 5 },
+      {  name: "Spd Feint 2", rarity: 5 },
+      {  name: "Spd Feint 3", rarity: 5 },
+      {  name: "Res Opening 1", rarity: 5 },
+      {  name: "Res Opening 2", rarity: 5 },
+      {  name: "Res Opening 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 18, atk: 9, spd: 9, def: 4, res: 3 },
+      level40: { hp: [ 34, 37, 41 ], atk: [ 32, 35, 38 ], spd: [ 30, 33, 36 ], def: [ 11, 14, 18 ], res: [ 21, 25, 28 ] }
+    }
+  },
+  {
     name: "Sothe",
     title: "Zephyr",
     artist: "Kusugi Toku (久杉トク)",
@@ -11482,6 +11637,40 @@ module.exports = [
       level40: { hp: [ 34, 37, 41 ], atk: [ 24, 28, 31 ], spd: [ 31, 34, 37 ], def: [ 22, 25, 29 ], res: [ 26, 30, 33 ] },
       level1_4: { hp: 17, atk: 5, spd: 8, def: 5, res: 8 },
       level40_4: { hp: [ 32, 35, 38 ], atk: [ 22, 25, 28 ], spd: [ 29, 32, 35 ], def: [ 20, 23, 26 ], res: [ 25, 28, 31 ] }
+    }
+  },
+  {
+    name: "Titania (Greil's Devoted)",
+    shortName: "Titania",
+    title: "Warm Knight",
+    artist: "Wada Sachiko (ワダサチコ)",
+    voice: "Misty Lee",
+    releaseDate: "Feb 10, 2019",
+    colorType: "Red",
+    weaponType: "Tome",
+    moveType: "Cavalry",
+    rarity5: ["pool1", "pool2"],
+    limited: true,
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Titania (Greil's Devoted).png",
+      main: "img/heroes-main/Titania (Greil's Devoted).png"
+    },
+    skills: [
+      {  name: "Fire", rarity: 5 },
+      {  name: "Elfire", rarity: 5 },
+      {  name: "Loyal Wreath", rarity: 5 },
+      {  name: "Loyal Wreath+", rarity: 5 },
+      {  name: "Swap", rarity: 5 },
+      {  name: "Triangle Adept 1", rarity: 5 },
+      {  name: "Triangle Adept 2", rarity: 5 },
+      {  name: "Triangle Adept 3", rarity: 5 },
+      {  name: "Atk/Res Link 1", rarity: 5 },
+      {  name: "Atk/Res Link 2", rarity: 5 },
+      {  name: "Atk/Res Link 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 16, atk: 8, spd: 9, def: 4, res: 6 },
+      level40: { hp: [ 32, 35, 38 ], atk: [ 27, 30, 33 ], spd: [ 30, 33, 36 ], def: [ 14, 17, 20 ], res: [ 27, 30, 33 ] }
     }
   },
   {
