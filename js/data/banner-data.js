@@ -1,5 +1,19 @@
 module.exports = [
  {
+    date: "February 2019",
+    banners: [
+      {
+        name: "Greil's Devoted",
+        startDate: "Feb 8, 2019",
+        focusHeroes: [ "Greil (Greil's Devoted)", "Soren (Greil's Devoted)", "Mist (Greil's Devoted)", "Ike (Greil's Devoted)" ],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV2",
+        pool: "pool1"
+      },
+    ]
+ },
+ {
     date: "January 2019",
     banners: [
       {
